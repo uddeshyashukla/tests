@@ -1,0 +1,28 @@
+TO LAUNCH AN AWS EC2 INSTANCE
+Step 1:Create your account on amazon aws using root or IAM user.
+Step 2:Select region (Asia Pacific Mumbai).
+Step 3:Open EC2 services and click on instances.
+Step 4:Name your instance and select window O.S.
+Step 5:Select instances types (select t2.micro ).
+Step 6:Now create your key pair name (key pair type should be RSA and and format .pem).
+Step 7:After creating your key it will be downloaded automatically.
+Step 8:Allow SSH traffic from my ip address only.
+Step 9:Now click on launch instance.
+Step 10:After launching your instances go to your instances and select your instance and click on connect then click on RDP client and download remote desktop file.
+Step 11:Now click on get password and click on upload private key.
+Step 12:Choose your pem file and upload it.
+Step 13:Then click on decrypt password and copy your password .
+Step 14:Open your remote desktop file and paste your password and click on connect.
+Step 15:Now your virtual window will be opened.
+
+NOW FOR INSTALLING APACHE SERVER ON YOUR VM:
+Step 1:Firstly open the browser and search 'apache server download for windows.
+Step 2:Go to apache website and download zip file for windows.
+Step 3:Unzip the file and extract the folder Apache 24 to C drive.
+Step 4:Then open Command prompt and run as administrator.
+Step 5:Run command 'cd C:\Apache 24\bin.
+Step 6:Run command 'httpd -k install'.
+//Now Apache server is installed successfully.
+Step 7:Go to services, click on Apache 2.4 then start the service.
+Step 8:Open browser search localhost '127.0.0.1' .
+//It shows "It works !".
